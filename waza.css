@@ -1,0 +1,80 @@
+body{
+     margin: 0;
+     padding: 0;
+     font-family: cursive;
+     background: linear-gradient(10000deg,#c22ee0,#311fd6);
+     align-content: center; 
+     
+}
+.registro{
+     position: relative;
+     top: 50%;
+     left: 50%;
+     width: 200px;
+     background: rgb(17, 255, 29);
+     border-radius: 8px;
+}
+.registro h1{
+     text-align: center;
+     padding: 0  15px 0;
+     border-bottom: 4px solid olive ;
+     border-radius: 20%;
+}
+.registro form{
+     
+     padding: 0 15px;
+     box-sizing: border-box;
+     
+}
+form .username
+{
+     position: relative;
+     border-bottom: 2px solid #4542d8;
+     margin: 3% 1;
+     transform: translatey(10%);
+     font-size: 2px;
+}
+input.placeholder {
+     text-align: center;
+}
+
+.contraseña {
+     position: relative;
+     top: 10%;
+     left: 1px;
+     color: grey;
+     transform: translateY(10%);
+     font-size: 5px;
+     pointer-events: none;
+     color: #1f3bd6;
+}
+
+.gg-eye {
+     position: relative;
+     display: block;
+     transform: scale(var(--ggs,1));
+     width: 24px;
+     height: 18px;
+     border-bottom-right-radius: 100px;
+     border-bottom-left-radius: 100px;
+     overflow: hidden;
+     box-sizing: border-box
+}
+
+.button {
+     position: inherit;
+     top: 33%;
+     left: 40%;
+     width: 100px;
+     background: beige;
+     border-radius: 5px;
+     border-radius: 500%;
+}
+.perdida{
+     background-color: #1f3bd6;
+     border: top left radius 10px; 
+
+
+
+
+}
